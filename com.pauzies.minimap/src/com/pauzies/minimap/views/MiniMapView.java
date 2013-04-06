@@ -155,7 +155,6 @@ public class MiniMapView extends ViewPart {
 			editor = new MyTextEditor((AbstractTextEditor) part);
 
 			setMinimapFont();
-			
 			fillMiniMap(minimap, editor);
 
 			editor.getSourceViewer().getTextWidget().addControlListener(editorControlListener);
